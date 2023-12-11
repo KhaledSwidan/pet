@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.2/bootstrap-icons.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.2/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="image">
+            <a class="navbar-brand" href="#">
+              <img src="navLogo.png" alt="Bootstrap" width="" height="" />
+            </a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav justify-content-end contactNav position-relative">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://twitter.com/unilineveterinary/">
+                  <i class="bi bi-twitter-x"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://www.facebook.com/unilineveterinary">
+                  <i class="bi bi-facebook"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://www.instagram.com/uniline_vet/">
+                  <i class="bi bi-instagram"></i>
+                </a>
+              </li>
+              <div
+                class="btn-group btn-group-sm ms-2"
+                role="group"
+                aria-label="Small button group">
+                <button type="button" class="btn btn-info">Shop Now</button>
+                <button type="button" class="btn btn-success">Login</button>
+              </div>
+            </ul>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mainNav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About US</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Products
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">AYURFARM</a></li>
+                  <li><a class="dropdown-item" href="#">CALASTREME</a></li>
+                  <li><a class="dropdown-item" href="#">CAVAC</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">EDO LABORATORIOS</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">NAPHAVET</a></li>
+                  <li><a class="dropdown-item" href="#">PHARMAGAL-BIO</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >UNIMEDICAL LABORATORIES</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Brands</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Account</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="homeHeader position-relative">
+        <div
+          id="homeHeaderCarousel"
+          class="carousel slide carousel-fade position-relative"
+          data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="slider1.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="slider2.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="slider3.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="slider4.jpg" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#homeHeaderCarousel"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#homeHeaderCarousel"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="mainHeaderContent">
+          <h1>Leading veterinary distributor in the GCC</h1>
+          <p>
+            Exceeding customers expectations. Quality and efficiency of products
+            and process.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <section class="aboutUs py-5 my-5">
+      <div class="container">
+        <div class="row">
+          <!-- item start -->
+          <div class="item col-md-4 my-3">
+            <div class="item-inner">
+              <div class="img-box">
+                <img src="us1.webp" alt="img-1" />
+                <img src="us1.webp" alt="img-1" />
+                <img src="us1.webp" alt="img-1" />
+                <img src="us1.webp" alt="img-1" />
+                <!-- hidden img to make hover -->
+                <img src="us1.webp" class="visibility-hidden" alt="img-1" />
+              </div>
+              <div class="info-box">
+                <a href="#"><h1>OUR PHARMACY</h1></a>
+                <button type="button"  class="btn btn-primary">See More</button>
+              </div>
+            </div>
+          </div>
+          <div class="item col-md-4 my-3">
+            <div class="item-inner">
+              <div class="img-box">
+                <img src="us2.webp" alt="img-2" />
+                <img src="us2.webp" alt="img-2" />
+                <img src="us2.webp" alt="img-2" />
+                <img src="us2.webp" alt="img-2" />
+                <!-- hidden img to make hover -->
+                <img src="us2.webp" class="visibility-hidden" alt="img-2" />
+              </div>
+              <div class="info-box">
+                <a href="#"><h1>OUR MISSION</h1></a>
+                <button type="button"  class="btn btn-primary">See More</button>
+              </div>
+            </div>
+          </div>
+          <div class="item col-md-4 my-3">
+            <div class="item-inner">
+              <div class="img-box">
+                <img src="us3.webp" alt="img-3" />
+                <img src="us3.webp" alt="img-3" />
+                <img src="us3.webp" alt="img-3" />
+                <img src="us3.webp" alt="img-3" />
+                <!-- hidden img to make hover -->
+                <img src="us3.webp" class="visibility-hidden" alt="img-3" />
+              </div>
+              <div class="info-box">
+                <a href="#"><h1>OUR VALUES</h1></a>
+                <button type="button"  class="btn btn-primary">See More</button>
+              </div>
+            </div>
+          </div>
+          <div class="item col-md-4 my-3">
+            <div class="item-inner">
+              <div class="img-box">
+                <img src="us4.webp" alt="img-4" />
+                <img src="us4.webp" alt="img-4" />
+                <img src="us4.webp" alt="img-4" />
+                <img src="us4.webp" alt="img-4" />
+                <!-- hidden img to make hover -->
+                <img src="us4.webp" class="visibility-hidden" alt="img-4" />
+              </div>
+              <div class="info-box">
+                <a href="#"><h1>Agricultura</h1></a>
+                <button type="button"  class="btn btn-primary">See More</button>
+              </div>
+            </div>
+          </div>
+          <div class="item col-md-4 my-3">
+            <div class="item-inner">
+              <div class="img-box">
+                <img src="us5.webp" alt="img-4" />
+                <img src="us5.webp" alt="img-4" />
+                <img src="us5.webp" alt="img-4" />
+                <img src="us5.webp" alt="img-4" />
+                <!-- hidden img to make hover -->
+                <img src="us5.webp" class="visibility-hidden" alt="img-4" />
+              </div>
+              <div class="info-box">
+                <a href="#"><h1>Pet</h1></a>
+                <button type="button"  class="btn btn-primary">See More</button>
+              </div>
+            </div>
+          </div>
+          <!-- item end -->
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
